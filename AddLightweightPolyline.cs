@@ -8,20 +8,23 @@ using Autodesk.AutoCAD.ApplicationServices;
 using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.Geometry;
 using AcadApp = Autodesk.AutoCAD.ApplicationServices;
+using Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023.Properties;
 
 namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
 {
     public class AddLightweightPolylineUser
     {
         [CommandMethod("AddLightweightPolyline")]
+        
+        
         public static void AddLightweightPolyline()
         {
+            Class_Polyline3d.My3dPoly();
             // Get the current document and database
             Document acDoc = Application.DocumentManager.MdiActiveDocument;
             Database acCurDb = acDoc.Database;
             // открываем окно
-            UserControl1 userControl1 = new UserControl1();
-            AcadApp.Application.ShowModalWindow(userControl1);
+           
             // Start a transaction
             using (Transaction acTrans = acCurDb.TransactionManager.StartTransaction())
             {
@@ -49,6 +52,8 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
 
                 // Save the new object to the database
                 acTrans.Commit();
+                UserControl1 userControl1 = new UserControl1();
+                AcadApp.Application.ShowModalWindow(userControl1);
             }
         }
     }
