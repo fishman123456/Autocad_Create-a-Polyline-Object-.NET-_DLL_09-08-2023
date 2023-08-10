@@ -35,36 +35,37 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023.Properties
             // now input some points
 
             PromptPointResult res = null;
+            //// делаем пока ескейп не нажмем
+            //do
+            //{
+            //    // pint the point
+            //    res = ed.GetPoint("нажмите для точки");
+            //    // if point picked
+            //    if (res.Status == PromptStatus.OK)
+            //    {
+                   
+            //        // add it to our list of points
+            //        //добавлени е точек щелчками мыхи
+            //        // pnts.Add(res.Value);
 
-            do
+            //    }
+            //    else
+            //        break;
 
-            {
-
-                // pint the point
-
-                res = ed.GetPoint("Pick a 3d point");
-
-                // if point picked
-
-                if (res.Status == PromptStatus.OK)
-
-                {
-
-                    // add it to our list of points
-
-                    pnts.Add(res.Value);
-
-                }
-
-                else
-
-                    break;
-
-
-
-            } while (res.Status == PromptStatus.OK);
-
-
+            //} while (res.Status == PromptStatus.Cancel);
+            // берем координаты жестко забитые
+            pnts.Add(new Point3d(0.0, 0.0, 0.0));
+            pnts.Add(new Point3d(0.0, 50.0, 0.0));
+            pnts.Add(new Point3d(50.0, 50.0, 0.0));
+            pnts.Add(new Point3d(50.0, 0.0, 0.0));
+            pnts.Add(new Point3d(0.0, 0.0, 0.0));
+            // поднимаемся по Z
+            pnts.Add(new Point3d(0.0, 0.0, 100.0));
+            pnts.Add(new Point3d(0.0, 0.0, 100.0));
+            pnts.Add(new Point3d(0.0, 50.0, 100.0));
+            pnts.Add(new Point3d(50.0, 50.0, 100.0));
+            pnts.Add(new Point3d(50.0, 0.0, 100.0));
+            pnts.Add(new Point3d(0.0, 0.0, 100.0));
 
             // if we have enough points
 
