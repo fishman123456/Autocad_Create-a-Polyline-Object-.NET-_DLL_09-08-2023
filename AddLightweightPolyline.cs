@@ -9,6 +9,8 @@ using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.Geometry;
 using AcadApp = Autodesk.AutoCAD.ApplicationServices;
 using Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023.Properties;
+using Autodesk.AutoCAD.EditorInput;
+using System.Windows;
 
 namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
 {
@@ -21,10 +23,11 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
         {
             Class_Polyline3d.My3dPoly();
             // Get the current document and database
-            Document acDoc = Application.DocumentManager.MdiActiveDocument;
+            Document acDoc = AcadApp.Application.DocumentManager.MdiActiveDocument;
             Database acCurDb = acDoc.Database;
+            Editor ed = AcadApp.Application.DocumentManager.MdiActiveDocument.Editor;
             // открываем окно
-           
+
             // Start a transaction
             using (Transaction acTrans = acCurDb.TransactionManager.StartTransaction())
             {
@@ -48,10 +51,32 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                     // Add the new object to the block table record and the transaction
                     acBlkTblRec.AppendEntity(acPoly);
                     acTrans.AddNewlyCreatedDBObject(acPoly, true);
+                    // соманды автокад
+                    //TODO: Заработали команды 11-08-2023
+                    acDoc.SendStringToExecute("_.ZOOM _all " ,true, false, false);
+                   
+                    //ed.Command("REGEN");
+                    //ed.Command("ZOOM", "E");
+                    //ed.Command("QSAVE");
                 }
 
                 // Save the new object to the database
                 acTrans.Commit();
+                AcadApp.Application.ShowAlertDialog("3D полилинии начерчены");
+
+                // TODO: перерисовка чертежа
+                // Redraw the drawing
+
+                AcadApp.Application.UpdateScreen();
+
+                AcadApp.Application.DocumentManager.MdiActiveDocument.Editor.UpdateScreen();
+
+
+                // TODO: регенерация чертежа
+                // Regenerate the drawing
+
+                AcadApp.Application.DocumentManager.MdiActiveDocument.Editor.Regen();
+
                 UserControl1 userControl1 = new UserControl1();
                 AcadApp.Application.ShowModalWindow(userControl1);
             }

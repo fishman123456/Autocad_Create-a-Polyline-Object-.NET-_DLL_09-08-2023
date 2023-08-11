@@ -34,6 +34,10 @@
     <Reference Include="accoremgd">
       <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2021\accoremgd.dll</HintPath>
     </Reference>
+    <Reference Include="AcCui, Version=24.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2021\AcCui.dll</HintPath>
+    </Reference>
     <Reference Include="acdbmgd">
       <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2021\acdbmgd.dll</HintPath>
     </Reference>
@@ -56,7 +60,9 @@
   <ItemGroup>
     <Compile Include="AddLightweightPolyline.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Class_Viewport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Class1_Gets_entity_and_pick_position.cs" />
     <Compile Include="Properties\Class_Polyline3d.cs" />
     <Compile Include="UserControl1.xaml.cs">
       <DependentUpon>UserControl1.xaml</DependentUpon>

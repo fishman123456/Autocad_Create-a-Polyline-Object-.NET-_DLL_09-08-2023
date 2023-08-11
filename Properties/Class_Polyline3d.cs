@@ -9,7 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Autodesk.AutoCAD.EditorInput;
-
+// TODO: справка по командам автокад
+// TODO: https://github.dev/luanshixia/AutoCADCodePack/blob/341b5bd153994f4016fc2aa86038e60b36e855c9/AutoCADCommands/Commands.cs#L1169#L1204
 namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023.Properties
 {
 
@@ -72,37 +73,21 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023.Properties
             if (pnts.Count >= 2)
 
             {
-
                 // Create a 3D polyline with two segments (3 points)
-
                 using (Polyline3d poly3d = new Polyline3d())
-
                 {
-
                     poly3d.SetDatabaseDefaults();
-
                     // Add the new object to the current space block table record
-
                     using (BlockTableRecord curSpace = db.CurrentSpaceId.
-
                                                Open(OpenMode.ForWrite) as BlockTableRecord)
-
                     {
-
                         // because before adding vertexes, the polyline must be in the drawing
-
                         curSpace.AppendEntity(poly3d);
-
                         foreach (Point3d pnt in pnts)
-
                         {
-
                             // now create the vertices
-
                             using (PolylineVertex3d poly3dVertex = new PolylineVertex3d(pnt))
-
                                 // and add them to the 3dpoly (this adds them to the db also
-
                                 poly3d.AppendVertex(poly3dVertex);
 
                         }

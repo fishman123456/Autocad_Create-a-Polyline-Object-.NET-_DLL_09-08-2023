@@ -5,36 +5,96 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800" Title="U-83">
+             d:DesignHeight="450" d:DesignWidth="900" Title="U-83">
     <Grid>
         <!-- 10 столбцов счет от нуля  -->
         <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <!-- 10 строк счет от нуля -->
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
         </Grid.ColumnDefinitions>
-        <Button Grid.Column="0" Grid.Row="0" Content="Строка 0 Столбец 0"  />
-        <Button Grid.Column="3" Grid.Row="3" Content="Объединение трех столбцов" Grid.ColumnSpan="3"  />
-        <Button Grid.Column="8" Grid.Row="8" Content="Строка 8 Столбец 8"  />
+        <!-- названия текстблоков -->
+        <TextBlock Name="Layers_mark" Grid.Column="0" Grid.Row="1" Text="Слои"
+                 Grid.ColumnSpan="2" FontSize="16" Margin="5"/>
+        <TextBlock Name="Text_1" Grid.Column="2" Grid.Row="1" Text="XYZ_1"
+                 Grid.ColumnSpan="2" FontSize="16" Margin="5"/>
+        <TextBlock Name="Text_2" Grid.Column="4" Grid.Row="1" Text="XYZ_2"
+                 Grid.ColumnSpan="2" FontSize="16" Margin="5"/>
+        <TextBlock Name="Text_3" Grid.Column="6" Grid.Row="1" Text="XYZ_3"
+                 Grid.ColumnSpan="2" FontSize="16" Margin="5"/>
+        <TextBlock Name="Text_4" Grid.Column="8" Grid.Row="1" Text="XYZ_4"
+                 Grid.ColumnSpan="2" FontSize="16" Margin="5"/>
+        <TextBlock Name="Text_5" Grid.Column="10" Grid.Row="1" Text="XYZ_5"
+                 Grid.ColumnSpan="2" FontSize="16" Margin="5"/>
+        <TextBlock Name="Text_6" Grid.Column="12" Grid.Row="1" Text="XYZ_6"
+                 Grid.ColumnSpan="2" FontSize="16" Margin="5"/>
+        <!-- Тестбоксы для ввода данных -->
+        <TextBox Name="Layers_text" Grid.Column="0" Grid.Row="2"
+                 Grid.ColumnSpan="2" Grid.RowSpan="5"
+                 FontSize="16" Margin="5" Language="ru-ru"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
+        <TextBox Name="Text_XYZ_1" Grid.Column="2" Grid.Row="2"
+                 Grid.ColumnSpan="2" Grid.RowSpan="5"
+                 FontSize="16" Margin="5" Language="ru-ru"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
+        <TextBox Name="Text_XYZ_2" Grid.Column="4" Grid.Row="2"
+                 Grid.ColumnSpan="2" Grid.RowSpan="5"
+                 FontSize="16" Margin="5" Language="ru-ru"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
+        <TextBox Name="TextXYZ_3" Grid.Column="6" Grid.Row="2"
+                 Grid.ColumnSpan="2" Grid.RowSpan="5"
+                 FontSize="16" Margin="5" Language="ru-ru"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
+        <TextBox Name="TextXYZ_4" Grid.Column="8" Grid.Row="2"
+                 Grid.ColumnSpan="2" Grid.RowSpan="5"
+                 FontSize="16" Margin="5" Language="ru-ru"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
+        <TextBox Name="TextXYZ_5" Grid.Column="10" Grid.Row="2"
+                 Grid.ColumnSpan="2" Grid.RowSpan="5"
+                 FontSize="16" Margin="5" Language="ru-ru"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
+        <TextBox Name="TextXYZ_6" Grid.Column="12" Grid.Row="2"
+                 Grid.ColumnSpan="2" Grid.RowSpan="5"
+                 FontSize="16" Margin="5" Language="ru-ru"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
+        <!-- Кнопки для управления и закрытия приложения -->
+        <Button  Name="CloseWin" Content="Выход" 
+                 Grid.Column="12" Grid.Row="9" Grid.ColumnSpan="2"
+                 FontSize="16" Margin="5" Click="CloseWin_Click"/>
+        <Button  Name="Help" Content="Помощь" 
+                 Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="2"
+                 FontSize="16" Margin="5" Click="CloseWin_Click"/>
     </Grid>
 </Window>
