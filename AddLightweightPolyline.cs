@@ -21,7 +21,7 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
         
         public static void AddLightweightPolyline()
         {
-            Class_Polyline3d.My3dPoly();
+            //Class_Polyline3d.My3dPoly();
             // Get the current document and database
             Document acDoc = AcadApp.Application.DocumentManager.MdiActiveDocument;
             Database acCurDb = acDoc.Database;
@@ -31,6 +31,7 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
             // Start a transaction
             using (Transaction acTrans = acCurDb.TransactionManager.StartTransaction())
             {
+                AcadApp.Application.DocumentManager.MdiActiveDocument.Database.Orthomode = false;
                 // Open the Block table for read
                 BlockTable acBlkTbl;
                 acBlkTbl = acTrans.GetObject(acCurDb.BlockTableId,
@@ -54,10 +55,6 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                     // соманды автокад
                     //TODO: Заработали команды 11-08-2023
                     acDoc.SendStringToExecute("_.ZOOM _all " ,true, false, false);
-                   
-                    //ed.Command("REGEN");
-                    //ed.Command("ZOOM", "E");
-                    //ed.Command("QSAVE");
                 }
 
                 // Save the new object to the database
@@ -76,9 +73,9 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                 // Regenerate the drawing
 
                 AcadApp.Application.DocumentManager.MdiActiveDocument.Editor.Regen();
-
-                UserControl1 userControl1 = new UserControl1();
-                AcadApp.Application.ShowModalWindow(userControl1);
+                AcadApp.Application.DocumentManager.MdiActiveDocument.Database.Orthomode = true;
+                //UserControl1 userControl1 = new UserControl1();
+                // AcadApp.Application.ShowModalWindow(userControl1);
             }
         }
     }
