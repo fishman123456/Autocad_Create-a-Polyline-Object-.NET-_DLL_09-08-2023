@@ -26,8 +26,8 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
         private static Database db = doc.Database; //subclass of Document, 
         private static Editor ed = doc.Editor; //Editor object to ask user where table goes, subclass of Document
 
-        //[CommandMethod("Create_table")]
-        public  OpeningDataTable(bool isWindow)
+        
+        public   OpeningDataTable()
         {
             PromptPointResult pr = ed.GetPoint("\nEnter table insertion point: ");
             if (pr.Status == PromptStatus.OK)

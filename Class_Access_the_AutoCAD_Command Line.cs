@@ -27,6 +27,8 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
             // limits of the drawing
 
             acDoc.SendStringToExecute("._circle 2,2,0 4 ", true, false, false);
+            acDoc.SendStringToExecute("._circle 2,6,0 4 ", true, false, false);
+            acDoc.SendStringToExecute("._circle 2,10,0 4 ", true, false, false);
 
             acDoc.SendStringToExecute("._zoom _all ", true, false, false);
 

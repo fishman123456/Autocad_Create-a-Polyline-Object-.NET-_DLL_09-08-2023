@@ -21,7 +21,8 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
         
         public static void AddLightweightPolyline()
         {
-            //Class_Polyline3d.My3dPoly();
+            OpeningDataTable dataTable = new OpeningDataTable();
+            Class_Polyline3d.My3dPoly();
             // Get the current document and database
             Document acDoc = AcadApp.Application.DocumentManager.MdiActiveDocument;
             Database acCurDb = acDoc.Database;
