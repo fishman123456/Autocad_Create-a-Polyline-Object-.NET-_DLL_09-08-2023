@@ -59,7 +59,9 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
             {
                 ParseOption s = new ParseOption();
                 Cells[rowCount, i].TextHeight = 1;
+                // добавляем строки, пока только Mark добавляется
                 Cells[rowCount, i].SetValue(data[i], s);
+
             }
             GenerateLayout();
 

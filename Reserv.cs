@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
 {
-    public class Class1
+    public class Reserv
     {
     }
 }

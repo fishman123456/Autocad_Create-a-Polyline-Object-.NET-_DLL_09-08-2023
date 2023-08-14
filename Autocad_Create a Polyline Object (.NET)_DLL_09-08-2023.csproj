@@ -59,7 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddLightweightPolyline.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="Class_User_Table_F.cs" />
+    <Compile Include="Reserv.cs" />
     <Compile Include="Class_Access_the_AutoCAD_Command Line.cs" />
     <Compile Include="Class_FreezeDoorLayer.cs" />
     <Compile Include="Class_Get_string.cs" />
