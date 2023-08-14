@@ -31,7 +31,6 @@ C:\Users\Fishman_1\Documents\GitHub\Autocad_Create-a-Polyline-Object-.NET-_DLL_0
 C:\Users\Fishman_1\Documents\GitHub\Autocad_Create-a-Polyline-Object-.NET-_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.dll
 C:\Users\Fishman_1\Documents\GitHub\Autocad_Create-a-Polyline-Object-.NET-_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.pdb
 C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.pdb
 C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\accoremgd.dll
 C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcCui.dll
 C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\acdbmgd.dll

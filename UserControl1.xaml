@@ -8,6 +8,7 @@
              d:DesignHeight="450" d:DesignWidth="900" Title="U-83">
     <Grid>
         <!-- 10 столбцов счет от нуля  -->
+        <!--https://github.dev/luanshixia/AutoCADCodePack/blob/341b5bd153994f4016fc2aa86038e60b36e855c9/AutoCADCommands/DbHelper.cs#L53#L75-->
         <Grid.RowDefinitions>
             <RowDefinition Height="10*"/>
             <RowDefinition Height="10*"/>
