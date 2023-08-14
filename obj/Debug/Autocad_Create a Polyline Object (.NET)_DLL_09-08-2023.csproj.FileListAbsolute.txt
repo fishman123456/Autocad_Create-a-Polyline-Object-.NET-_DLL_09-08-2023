@@ -1,35 +1,3 @@
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\accoremgd.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcCui.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\acdbmgd.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\acmgd.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcMNUParser.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AdUiPalettes.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcDx.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcDxPublishUi.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AdWindows.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcMr.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcWindows.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AdUIMgd.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcTcMgd.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\Autodesk.AutoCAD.Interop.Common.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\acdbmgd.resources.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\AcDx.resources.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\AcDxPublishUi.resources.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\AdWindows.resources.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\AcMr.resources.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\AcWindows.resources.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.csproj.AssemblyReference.cache
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\UserControl1.g.cs
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023_MarkupCompile.cache
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023_MarkupCompile.lref
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\UserControl1.baml
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.g.resources
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.csproj.CoreCompileInputs.cache
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.csproj.CopyComplete
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.dll
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.pdb
-C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.pdb
 C:\Users\Fishman_1\Documents\GitHub\Autocad_Create-a-Polyline-Object-.NET-_DLL_09-08-2023\bin\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.dll
 C:\Users\Fishman_1\Documents\GitHub\Autocad_Create-a-Polyline-Object-.NET-_DLL_09-08-2023\bin\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.pdb
 C:\Users\Fishman_1\Documents\GitHub\Autocad_Create-a-Polyline-Object-.NET-_DLL_09-08-2023\bin\Debug\accoremgd.dll
@@ -62,3 +30,35 @@ C:\Users\Fishman_1\Documents\GitHub\Autocad_Create-a-Polyline-Object-.NET-_DLL_0
 C:\Users\Fishman_1\Documents\GitHub\Autocad_Create-a-Polyline-Object-.NET-_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.csproj.CopyComplete
 C:\Users\Fishman_1\Documents\GitHub\Autocad_Create-a-Polyline-Object-.NET-_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.dll
 C:\Users\Fishman_1\Documents\GitHub\Autocad_Create-a-Polyline-Object-.NET-_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.pdb
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.pdb
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\accoremgd.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcCui.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\acdbmgd.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\acmgd.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcMNUParser.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AdUiPalettes.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcDx.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcDxPublishUi.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AdWindows.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcMr.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcWindows.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AdUIMgd.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\AcTcMgd.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\Autodesk.AutoCAD.Interop.Common.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\acdbmgd.resources.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\AcDx.resources.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\AcDxPublishUi.resources.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\AdWindows.resources.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\AcMr.resources.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\bin\Debug\ru-RU\AcWindows.resources.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.csproj.AssemblyReference.cache
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\UserControl1.g.cs
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023_MarkupCompile.cache
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023_MarkupCompile.lref
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\UserControl1.baml
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.g.resources
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.csproj.CoreCompileInputs.cache
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.csproj.CopyComplete
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.dll
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.pdb

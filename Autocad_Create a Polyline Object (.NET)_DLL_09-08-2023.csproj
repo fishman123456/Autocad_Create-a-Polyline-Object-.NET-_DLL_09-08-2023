@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddLightweightPolyline.cs" />
+    <Compile Include="Class_add_to_dictionary_attr_block.cs" />
+    <Compile Include="Class_Create_table_of_block_attribute.cs" />
     <Compile Include="Class_User_Table_F.cs" />
     <Compile Include="Reserv.cs" />
     <Compile Include="Class_Access_the_AutoCAD_Command Line.cs" />

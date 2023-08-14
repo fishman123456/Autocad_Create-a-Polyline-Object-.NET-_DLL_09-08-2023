@@ -18,9 +18,9 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
 {
     // TODO: из чего состоит Table -  public class Table : BlockReference, IEnumerable;
    // TODO: таблица с именами блоков
-    internal class Class_User_Table_F:Table
+   public class Class_User_Table_F:Table
     {
-        const double rowHeight = 3.0, colWidth = 5.0;
+        const double rowHeight = 20.0, colWidth = 30.0;
 
         const double textHeight = rowHeight * 0.25;
 
@@ -36,13 +36,13 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                 return;
 
 
-
+            Document acDoc = Application.DocumentManager.MdiActiveDocument;
             var db = doc.Database;
 
             var ed = doc.Editor;
 
 
-
+            // TODO: задаем точку вручную, щелчком мыши
             var pr = ed.GetPoint("\nEnter table insertion point");
 
             if (pr.Status != PromptStatus.OK)
@@ -106,32 +106,20 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                 {
 
                     var btr = (BlockTableRecord)tr.GetObject(id, OpenMode.ForRead);
-
+                    var btrAttr = (BlockTableRecord)tr.GetObject(id, OpenMode.ForRead);
 
 
                     // Only care about user-insertable blocks
 
 
-
+                    // TODO: если не существуют и не анонимные
                     if (!btr.IsLayout && !btr.IsAnonymous)
-
+                        
                     {
-
                         // Add a row
-
-
-
                         tb.InsertRows(tb.Rows.Count, rowHeight, 1);
-
-
-
                         var rowIdx = tb.Rows.Count - 1;
-
-
-
                         // The first cell will hold the block name
-
-
 
                         var first = tb.Cells[rowIdx, 0];
 
@@ -140,41 +128,26 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                         first.Alignment = CellAlignment.MiddleCenter;
 
                         first.TextHeight = textHeight;
-
-
-
                         // The second will contain a thumbnail of the block
-
-
-
                         var second = tb.Cells[rowIdx, 1];
 
                         second.BlockTableRecordId = id;
 
+                       // var third = tb.Cells[rowIdx, 2];
+                       
+                        //third.BlockTableRecordId = id;
                     }
 
                 }
-
-
-
                 // Now we add the table to the current space
-
-
-
                 var sp =
 
                   (BlockTableRecord)tr.GetObject(db.CurrentSpaceId, OpenMode.ForWrite);
 
                 sp.AppendEntity(tb);
-
-
-
                 // And to the transaction, which we then commit
-
-
-
                 tr.AddNewlyCreatedDBObject(tb, true);
-
+                acDoc.SendStringToExecute("._zoom _E ", true, false, false);
                 tr.Commit();
 
             }
