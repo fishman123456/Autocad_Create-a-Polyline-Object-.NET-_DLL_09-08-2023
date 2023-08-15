@@ -9,6 +9,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+// четко прописываем пространство имен чтобы не путаться между автокадом и виндовсом 15-08-2023
+using Application = Autodesk.AutoCAD.ApplicationServices.Application;
 //Autodesk.AutoCAD.DatabaseServices.DBObject
 //    Autodesk.AutoCAD.DatabaseServices.Entity
 //        Autodesk.AutoCAD.DatabaseServices.BlockReference
@@ -143,18 +146,41 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                 var sp =
 
                   (BlockTableRecord)tr.GetObject(db.CurrentSpaceId, OpenMode.ForWrite);
-
+                
                 sp.AppendEntity(tb);
                 // And to the transaction, which we then commit
                 tr.AddNewlyCreatedDBObject(tb, true);
                 acDoc.SendStringToExecute("._zoom _E ", true, false, false);
-                tr.Commit();
+                #region
+                //TODO: проверка на дату, защита времени
+
+                DateTime dt1 = DateTime.Now;
+                DateTime dt2 = DateTime.Parse("9/09/2023");
+
+
+                if (dt1.Date > dt2.Date)
+                {
+                    Application.ShowAlertDialog("Your Application is Expire");
+                    //MessageBox.Show("Your Application is Expire");
+                    // Выход из проложения добавил 12-07-2023. Чтобы порядок был....
+                    tr.Abort();
+                    //w1.Close();
+                }
+                else
+                {
+                    Application.ShowAlertDialog("Работайте до   " + dt2.ToString());
+                    tr.Commit();
+                }
+                //
+                #endregion
+               
 
             }
 
         }
 
     }
+    
 }
 
 
