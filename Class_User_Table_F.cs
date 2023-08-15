@@ -170,6 +170,7 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                 {
                     Application.ShowAlertDialog("Работайте до   " + dt2.ToString());
                     tr.Commit();
+
                 }
                 //
                 #endregion
