@@ -115,7 +115,7 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                     // Only care about user-insertable blocks
 
 
-                    // TODO: если не существуют и не анонимные
+                    // TODO: если не на листе существуют и не анонимные
                     if (!btr.IsLayout && !btr.IsAnonymous)
                         
                     {
