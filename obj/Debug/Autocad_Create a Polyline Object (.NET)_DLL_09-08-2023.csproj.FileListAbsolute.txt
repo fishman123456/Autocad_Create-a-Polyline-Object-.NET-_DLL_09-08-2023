@@ -62,3 +62,5 @@ C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET
 C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.csproj.CopyComplete
 C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.dll
 C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023.pdb
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\UserControl2.g.cs
+C:\Users\Fishman.DB.CORP\Documents\GitHub\Autocad_Create a Polyline Object (.NET)_DLL_09-08-2023\obj\Debug\UserControl2.baml

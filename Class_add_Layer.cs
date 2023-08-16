@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using Autodesk.AutoCAD.Publishing;
 using Autodesk.AutoCAD.Geometry;
+using System.Windows.Controls;
 
 namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
 {
@@ -19,13 +20,24 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
     {
         // TODO: добавляем слой в чертеж
         [CommandMethod("ADD_LAYER")]
-        public void AddLayer()
+       
+        //принимает массив строк
+        public void  AddLayer(string[] strings)
         {
+            
+
             AcadApp.Document adoc = AcadApp.Application.DocumentManager.MdiActiveDocument;
             Database db = adoc.Database;
             Editor ed = adoc.Editor;
 
-            string s = "MyLayers";
+            // работа с окном и списками
+            UserControl2 userControl2 = new UserControl2();
+            AcadApp.Application.ShowModalWindow(userControl2);
+
+            
+            
+            //
+            //string s = "MyLayers";
             using (Transaction tr = db.TransactionManager.StartTransaction())
             // получаем таблицу слоёв
             {
@@ -34,12 +46,13 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                     {
                         LayerTable lt = (LayerTable)tr.GetObject(db.LayerTableId, OpenMode.ForRead);
                     // если название не удалено и такого еще нет в таблице слоев
-                    for (int i = 0; i < 10000; i++)
+                    // используем длину массива строк, для количества циклов 
+                    for (int i = 0; i < strings.Length; i++)
                     {
-                        if (!lt.Has(s))
+                        if (!lt.Has(strings[i]))
                         {
                             LayerTableRecord ltr = new LayerTableRecord();
-                            ltr.Name = s +" "+ i.ToString();
+                            ltr.Name = strings[i] +" "+ i.ToString();
 
                             lt.UpgradeOpen();
                             lt.Add(ltr);
@@ -47,7 +60,7 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
                         }
                         else
                         {
-                            AcadApp.Application.ShowAlertDialog("Такой слой уже есть! \n" + s);
+                            AcadApp.Application.ShowAlertDialog("Такой слой уже есть! \n" + strings[i]);
                         }
                     }
                         tr.Commit();
