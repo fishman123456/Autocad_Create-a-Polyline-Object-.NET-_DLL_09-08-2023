@@ -1,4 +1,5 @@
 ﻿using Autodesk.AutoCAD.ApplicationServices;
+using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.Runtime;
 
 using System;
@@ -21,14 +22,15 @@ namespace Autocad_Create_a_Polyline_Object__.NET__DLL_09_08_2023
             Document acDoc = Application.DocumentManager.MdiActiveDocument;
 
 
-
+            //string layerF = "_.layer\" \"_m\" \"lay ";
             // Draws a circle and zooms to the extents or 
 
             // limits of the drawing
+            // acDoc.SendStringToExecute(layerF, true, false, false);
 
             acDoc.SendStringToExecute("._circle 2,2,0 4 ", true, false, false);
-            acDoc.SendStringToExecute("._circle 2,6,0 4 ", true, false, false);
             acDoc.SendStringToExecute("._circle 2,10,0 4 ", true, false, false);
+            acDoc.SendStringToExecute("._circle 2,18,0 4 ", true, false, false);
 
             acDoc.SendStringToExecute("._zoom _all ", true, false, false);
 

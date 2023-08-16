@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="AddLightweightPolyline.cs" />
     <Compile Include="Class_Add_Circle_5.cs" />
+    <Compile Include="Class_add_Layer.cs" />
     <Compile Include="Class_add_to_dictionary_attr_block.cs" />
     <Compile Include="Class_BlockCoords.cs" />
     <Compile Include="Class_Create_table_of_block_attribute.cs" />
